@@ -1,9 +1,12 @@
-import styles from './page.module.scss'
+import BlackHole from '@/components/BlackHole/BlackHole';
+import styles from './page.module.scss';
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      Test
-    </main>
-  )
+const Home = () => {
+	return (
+		<main className={styles.homePageContainer}>
+			<BlackHole />
+		</main>
+	)
 }
+
+export default Home;

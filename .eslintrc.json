@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+		"indent": ["error", "tab", {"SwitchCase": 1}],
+		"max-len": ["error", {"code": 140, "ignoreStrings": true, "ignoreTemplateLiterals": true}],
+		"import/extensions": "off",
+		"react/jsx-indent" : ["error", "tab"],
+		"react/jsx-indent-props" : ["error", "tab"]
+	}
 }

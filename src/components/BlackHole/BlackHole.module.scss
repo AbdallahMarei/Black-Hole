@@ -1,0 +1,16 @@
+.blackHoleContainer {
+    height: 850px;
+    position: relative;
+    width: 100%;
+}
+
+.blackHoleVideo {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    rotate: 180deg;
+    top: -340px;
+    width: 100%;
+    z-index: 1;
+}
